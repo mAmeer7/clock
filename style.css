@@ -18,13 +18,10 @@ body{
 
 @media (max-width:500px){
     body{
-        background-image: linear-gradient(rgba(180, 7, 7, 0.5),rgba(200, 14, 14, 0.5)), url(bg.jpg) ;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(bg.jpg) ;
         background-position: center ;
         background-size: cover;
-        background-repeat: repeat; 
-         width: 100%;
-        min-height: 100vh;
-        
+        background-repeat: repeat;            
     }
 }
 .container{
