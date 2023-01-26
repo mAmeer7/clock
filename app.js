@@ -8,7 +8,7 @@ let ampm = document.querySelector('#ampm');
 // FUNCTION FOR TIME SHOWING
 
 let updateClock=()=>{
-    let h= 0
+    let h = new Date().getHours(); 
     let m = new Date().getMinutes();
     let s = new Date().getSeconds();
     let am_pm = 'AM';
